@@ -181,6 +181,8 @@ textarea {
 	width:200px;
 	padding:3px;
 	margin-right: 10px;
-	position: relative;
-	float: right;
+	position: fixed;
+	bottom: 0;
+	right:0;
+	
 }
