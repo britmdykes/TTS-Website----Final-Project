@@ -1,0 +1,186 @@
+body{
+	background-color: aliceblue;
+}
+
+.image {
+	width: 300px;
+	border-radius: 50%;
+	border: solid 10px cornflowerblue;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 10px;
+}
+
+
+
+h1 {
+	text-align: center;
+	font-family:IBM Plex Sans, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.box {
+	border: solid 5px cornflowerblue;
+	width: 350px;
+	height: 375px;
+	background: white;
+	padding: 20px 10px 10px 20px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+p {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 17px;
+
+}
+nav {
+	font-size: 30px;
+	background-color: cornflowerblue;
+	color:black;
+
+}
+nav ul {
+	list-style-type: none;
+	margin: 2px;
+	padding: 0;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	margin: 0 5px;
+}
+nav a {
+	color: white;
+	display: block;
+}
+nav a:hover{
+	color: black;
+	background: slateblue;
+}
+.contactform {
+	background-color: white;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 10px solid cornflowerblue;
+	border-radius: 25px;
+	width: 500px;
+	height: 375px;
+	padding: 10px 20px;
+}
+.contact {
+	text-align: center;
+	margin: 10px;
+}
+.inner-wrap {
+   margin-bottom: 15px;
+   margin-top: 15px;
+   display: inline-block;
+}
+.inner-wrap label {
+	font-weight: bold;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+    margin-top: 5px;
+}
+.contactform input[type="submit"]{
+    padding: 8px 20px 8px 10px;
+    border-radius: 5px;
+    color: black;
+    border: 5px solid cornflowerblue;
+    font-size: 15px;
+    width: 100%;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contactform input[type="submit"]:hover {
+	background-color: lightgray;
+	border: 5px solid lightgray;
+}
+
+
+.acrew {
+	border: 5px solid cornflowerblue;
+	margin: 50px 25px;
+	animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.largetext {
+	font-size: 22px;
+	font-weight: bold;
+}
+.largebox {
+	border: solid 5px cornflowerblue;
+	width: 350px;
+	height: 600px;
+	background: white;
+	padding: 20px 10px 10px 20px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.textButton {
+	border: 2px solid cornflowerblue;
+	width:185px;
+	margin-right: 10px;
+	background-color: lightgray;
+	padding: 5px;
+	position: absolute;
+	bottom: 0;
+	right:0; 
+
+}
+.textButton p{
+	display: inline-block;
+	font-weight: bold;
+}
+
+.button1 {
+	border: 1px solid cornflowerblue;
+	width:30px;
+	height: 30px;
+	font-weight: bold;
+	margin: 2px;
+}
+.button2 {
+	border: 1px solid cornflowerblue;
+	width:30px;
+	height: 30px;
+	margin: 2px;
+}
+.largeTextButton {
+	border: 2px solid cornflowerblue;
+	width:200px;
+	padding:3px;
+	margin-right: 10px;
+	position: relative;
+	float: right;
+}
